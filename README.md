@@ -5,5 +5,5 @@ Please enjoy hunting vulns!
 
 ## Requirements
 
-- Java 8+
+- Java 11+
 - Maven 3+

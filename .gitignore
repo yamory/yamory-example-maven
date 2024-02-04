@@ -33,6 +33,7 @@ build/
 
 ### Maven ###
 target
+.pom
 
 # Ignore Gradle GUI config
 gradle-app.setting
