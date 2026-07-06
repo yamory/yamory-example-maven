@@ -5,8 +5,8 @@ Please enjoy hunting vulns!
 
 ## Requirements
 
-- Java 11+
-- Maven 3+
+- Java 17+
+- Maven 4+
 
 ## Dependency tree
 

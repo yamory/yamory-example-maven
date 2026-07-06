@@ -12,7 +12,7 @@
     <url>https://yamory.io</url>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <struts2.version>2.5.13</struts2.version>
