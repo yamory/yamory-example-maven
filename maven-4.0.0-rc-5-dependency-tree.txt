@@ -1,0 +1,432 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] generate-pom-properties-maven-plugin                      [maven-plugin]
+[INFO] common-subproject                                                  [jar]
+[INFO] yamory-example-maven                                               [jar]
+[INFO] yamory-example-maven-root                                          [pom]
+[INFO] Loaded 23168 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/maven-metadata.xml (1.4 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.11.0/maven-dependency-plugin-3.11.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.11.0/maven-dependency-plugin-3.11.0.pom (19 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/48/maven-plugins-48.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/48/maven-plugins-48.pom (7.2 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/48/maven-parent-48.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/48/maven-parent-48.pom (50 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/38/apache-38.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/38/apache-38.pom (26 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.11.0/maven-dependency-plugin-3.11.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.11.0/maven-dependency-plugin-3.11.0.jar (262 kB at 9223372037 GB/s)
+[INFO] 
+[INFO] -----------< io.yamory:generate-pom-properties-maven-plugin >-----------
+[INFO] Building generate-pom-properties-maven-plugin 0.0.1                [1/4]
+[INFO]   from generate-pom-properties-maven-plugin/pom.xml
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+[INFO] Loaded 74 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots-c1d4c55f9308e5ac18a4069bed41dca64d85c515.txt)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom (14 kB at 9223372037 GB/s)
+[INFO] 
+[INFO] --- dependency:3.11.0:tree (default-cli) @ generate-pom-properties-maven-plugin ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/eu/maveniverse/maven/domtrip/domtrip-maven/1.5.1/domtrip-maven-1.5.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/eu/maveniverse/maven/domtrip/domtrip-core/1.5.1/domtrip-core-1.5.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/2.1.0/doxia-sink-api-2.1.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/4.0.0/maven-reporting-impl-4.0.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.11.0/plexus-archiver-4.11.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/eu/maveniverse/maven/domtrip/domtrip-maven/1.5.1/domtrip-maven-1.5.1.pom (3.7 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/4.0.0/maven-reporting-impl-4.0.0.pom (8.8 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/eu/maveniverse/maven/domtrip/domtrip-core/1.5.1/domtrip-core-1.5.1.pom (4.7 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/eu/maveniverse/maven/domtrip/domtrip/1.5.1/domtrip-1.5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/2.1.0/doxia-sink-api-2.1.0.pom (1.3 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.2/junit-bom-5.11.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/2.1.0/doxia-2.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.11.0/plexus-archiver-4.11.0.pom (5.6 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.2/junit-bom-5.11.2.pom (5.6 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/eu/maveniverse/maven/domtrip/domtrip/1.5.1/domtrip-1.5.1.pom (1.6 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/eu/maveniverse/maven/parent/parent/52/parent-52.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.6.0/plexus-io-3.6.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.1.0/plexus-i18n-1.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/2.1.0/doxia-2.1.0.pom (13 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/47/maven-parent-47.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.1.0/plexus-i18n-1.1.0.pom (2.8 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.6.0/plexus-io-3.6.0.pom (3.5 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/eu/maveniverse/maven/parent/parent/52/parent-52.pom (26 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.17.1/maven-dependency-analyzer-1.17.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.25/maven-resolver-util-1.9.25.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/47/maven-parent-47.pom (54 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/37/apache-37.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.4.1/velocity-engine-core-2.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.pom (5.4 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.17.1/maven-dependency-analyzer-1.17.1.pom (7.1 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/tools/velocity-tools-generic/3.1/velocity-tools-generic-3.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/48/maven-shared-components-48.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.25/maven-resolver-util-1.9.25.pom (2.2 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.9.25/maven-resolver-1.9.25.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.4.1/velocity-engine-core-2.4.1.pom (12 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-parent/2.4.1/velocity-engine-parent-2.4.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/37/apache-37.pom (26 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.14.2/junit-bom-5.14.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/tools/velocity-tools-generic/3.1/velocity-tools-generic-3.1.pom (2.6 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/tools/velocity-tools-parent/3.1/velocity-tools-parent-3.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/48/maven-shared-components-48.pom (3.8 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-bom/3.27.7/assertj-bom-3.27.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.9.25/maven-resolver-1.9.25.pom (25 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-parent/2.4.1/velocity-engine-parent-2.4.1.pom (9.5 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-master/7/velocity-master-7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.14.2/junit-bom-5.14.2.pom (5.7 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/2.0.0/doxia-sink-api-2.0.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-model/2.0.0/doxia-site-model-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/tools/velocity-tools-parent/3.1/velocity-tools-parent-3.1.pom (8.0 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-master/4/velocity-master-4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-bom/3.27.7/assertj-bom-3.27.7.pom (3.3 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/2.0.0/doxia-core-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-model/2.0.0/doxia-site-model-2.0.0.pom (5.8 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/2.0.0/doxia-sitetools-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-master/7/velocity-master-7.pom (7.9 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-master/4/velocity-master-4.pom (7.8 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-integration-tools/2.0.0/doxia-integration-tools-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/2.0.0/doxia-sink-api-2.0.0.pom (1.4 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/2.0.0/doxia-site-renderer-2.0.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/2.0.0/doxia-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/2.0.0/doxia-core-2.0.0.pom (3.9 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-integration-tools/2.0.0/doxia-integration-tools-2.0.0.pom (7.8 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/2.0.0/doxia-2.0.0.pom (17 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/2.0.0/doxia-sitetools-2.0.0.pom (12 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.1/junit-bom-5.11.1.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/2.0.0/doxia-module-apt-2.0.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/2.0.0/doxia-module-xdoc-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/2.0.0/doxia-site-renderer-2.0.0.pom (7.4 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.2/maven-archiver-3.6.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.1/junit-bom-5.11.1.pom (5.6 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/1.0.0/org.eclipse.sisu.plexus-1.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/2.0.0/doxia-module-xdoc-2.0.0.pom (5.4 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/2.0.0/doxia-modules-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/2.0.0/doxia-module-apt-2.0.0.pom (2.9 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0/commons-io-2.21.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.2/maven-archiver-3.6.2.pom (4.4 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/41/maven-shared-components-41.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/1.0.0/org.eclipse.sisu.plexus-1.0.0.pom (17 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/1.0.0/sisu-inject-1.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/2.0.0/doxia-modules-2.0.0.pom (2.5 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/41/maven-shared-components-41.pom (3.2 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0/commons-io-2.21.0.pom (21 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.11/xz-1.11.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.7-6/zstd-jni-1.5.7-6.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/91/commons-parent-91.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.10/asm-9.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/1.0.0/sisu-inject-1.0.0.pom (28 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.12.2/junit-bom-5.12.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.7-6/zstd-jni-1.5.7-6.pom (2.0 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.11/xz-1.11.pom (1.9 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.10/asm-9.10.pom (2.4 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/91/commons-parent-91.pom (79 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.25/maven-resolver-api-1.9.25.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.12.2/junit-bom-5.12.2.pom (5.6 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-digester3/3.2/commons-digester3-3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.25/maven-resolver-api-1.9.25.pom (2.2 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.pom (31 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.pom (18 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/73/commons-parent-73.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.pom (10 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-parent/2.3/velocity-engine-parent-2.3.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-digester3/3.2/commons-digester3-3.2.pom (18 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.pom (31 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/50/commons-parent-50.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/73/commons-parent-73.pom (78 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-parent/2.3/velocity-engine-parent-2.3.pom (14 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom (3.8 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/cliftonlabs/json-simple/3.0.2/json-simple-3.0.2.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.0/junit-bom-5.11.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom (42 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/50/commons-parent-50.pom (76 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.17.0/commons-io-2.17.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.0/junit-bom-5.11.0.pom (5.6 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/2.0.0/doxia-skin-model-2.0.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/2.0.0/doxia-module-xhtml5-2.0.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom (14 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/cliftonlabs/json-simple/3.0.2/json-simple-3.0.2.pom (7.5 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/2.2.0/plexus-velocity-2.2.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.4/velocity-engine-core-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.17.0/commons-io-2.17.0.pom (20 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/74/commons-parent-74.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/2.0.0/doxia-skin-model-2.0.0.pom (3.0 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/2.0.0/doxia-module-xhtml5-2.0.0.pom (2.9 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/1.0.0/org.eclipse.sisu.inject-1.0.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.2.0/plexus-component-annotations-2.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/2.2.0/plexus-velocity-2.2.0.pom (4.1 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.4/velocity-engine-core-2.4.pom (12 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/19/plexus-19.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-parent/2.4/velocity-engine-parent-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/74/commons-parent-74.pom (78 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/2.2.0/plexus-component-annotations-2.2.0.pom (736 B at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/2.2.0/plexus-containers-2.2.0.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.9.0/plexus-classworlds-2.9.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/19/plexus-19.pom (25 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/1.0.0/org.eclipse.sisu.inject-1.0.0.pom (18 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-parent/2.4/velocity-engine-parent-2.4.pom (9.5 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/2.2.0/plexus-containers-2.2.0.pom (2.3 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.9.0/plexus-classworlds-2.9.0.pom (7.1 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/20/plexus-20.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.pom (11 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/14/commons-parent-14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/20/plexus-20.pom (29 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.4/junit-bom-5.11.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/14/commons-parent-14.pom (31 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.4/junit-bom-5.11.4.pom (5.6 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/eu/maveniverse/maven/domtrip/domtrip-maven/1.5.1/domtrip-maven-1.5.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/eu/maveniverse/maven/domtrip/domtrip-maven/1.5.1/domtrip-maven-1.5.1.jar (75 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/eu/maveniverse/maven/domtrip/domtrip-core/1.5.1/domtrip-core-1.5.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/2.1.0/doxia-sink-api-2.1.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/4.0.0/maven-reporting-impl-4.0.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.11.0/plexus-archiver-4.11.0.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.6.0/plexus-io-3.6.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/eu/maveniverse/maven/domtrip/domtrip-core/1.5.1/domtrip-core-1.5.1.jar (153 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.1.0/plexus-i18n-1.1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/4.0.0/maven-reporting-impl-4.0.0.jar (21 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.17.1/maven-dependency-analyzer-1.17.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/2.1.0/doxia-sink-api-2.1.0.jar (12 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.11.0/plexus-archiver-4.11.0.jar (227 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.25/maven-resolver-util-1.9.25.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.6.0/plexus-io-3.6.0.jar (80 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.4.1/velocity-engine-core-2.4.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.1.0/plexus-i18n-1.1.0.jar (10 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/tools/velocity-tools-generic/3.1/velocity-tools-generic-3.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.17.1/maven-dependency-analyzer-1.17.1.jar (55 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-model/2.0.0/doxia-site-model-2.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.jar (58 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/2.0.0/doxia-core-2.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.25/maven-resolver-util-1.9.25.jar (197 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-integration-tools/2.0.0/doxia-integration-tools-2.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/tools/velocity-tools-generic/3.1/velocity-tools-generic-3.1.jar (217 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/2.0.0/doxia-site-renderer-2.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-model/2.0.0/doxia-site-model-2.0.0.jar (86 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/2.0.0/doxia-module-apt-2.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-integration-tools/2.0.0/doxia-integration-tools-2.0.0.jar (50 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/2.0.0/doxia-module-xdoc-2.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/2.0.0/doxia-core-2.0.0.jar (168 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.2/maven-archiver-3.6.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.4.1/velocity-engine-core-2.4.1.jar (516 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/1.0.0/org.eclipse.sisu.plexus-1.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/2.0.0/doxia-site-renderer-2.0.0.jar (44 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0/commons-io-2.21.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/2.0.0/doxia-module-apt-2.0.0.jar (54 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.11/xz-1.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/2.0.0/doxia-module-xdoc-2.0.0.jar (35 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.7-6/zstd-jni-1.5.7-6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.6.2/maven-archiver-3.6.2.jar (27 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.10/asm-9.10.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0/commons-io-2.21.0.jar (585 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/1.0.0/org.eclipse.sisu.plexus-1.0.0.jar (216 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-digester3/3.2/commons-digester3-3.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.10/asm-9.10.jar (126 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/cliftonlabs/json-simple/3.0.2/json-simple-3.0.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.11/xz-1.11.jar (169 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/2.0.0/doxia-skin-model-2.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-skin-model/2.0.0/doxia-skin-model-2.0.0.jar (16 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/2.0.0/doxia-module-xhtml5-2.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar (247 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/2.2.0/plexus-velocity-2.2.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/cliftonlabs/json-simple/3.0.2/json-simple-3.0.2.jar (35 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/1.0.0/org.eclipse.sisu.inject-1.0.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-digester3/3.2/commons-digester3-3.2.jar (242 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.9.0/plexus-classworlds-2.9.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml5/2.0.0/doxia-module-xhtml5-2.0.0.jar (17 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/2.2.0/plexus-velocity-2.2.0.jar (5.7 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/1.0.0/org.eclipse.sisu.inject-1.0.0.jar (304 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.9.0/plexus-classworlds-2.9.0.jar (54 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.7-6/zstd-jni-1.5.7-6.jar (7.4 MB at 9223372037 GB/s)
+[INFO] io.yamory:generate-pom-properties-maven-plugin:maven-plugin:0.0.1
+[INFO] +- org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.11.0:provided
+[INFO] +- org.apache.maven:maven-plugin-api:jar:3.9.6:provided
+[INFO] |  +- org.apache.maven:maven-model:jar:3.9.6:provided
+[INFO] |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.5.1:provided - version managed from 3.5.1; omitted for duplicate)
+[INFO] |  +- org.apache.maven:maven-artifact:jar:3.9.6:provided
+[INFO] |  |  +- (org.codehaus.plexus:plexus-utils:jar:3.5.1:provided - version managed from 3.5.1; omitted for duplicate)
+[INFO] |  |  \- (org.apache.commons:commons-lang3:jar:3.12.0:provided - version managed from 3.12.0; omitted for duplicate)
+[INFO] |  +- org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.9.0.M2:provided
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:provided (version managed from 1.2)
+[INFO] |  |  +- (org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.9.0.M2:provided - version managed from 0.9.0.M2; omitted for duplicate)
+[INFO] |  |  +- (org.codehaus.plexus:plexus-component-annotations:jar:2.1.0:provided - version managed from 2.1.0; omitted for duplicate)
+[INFO] |  |  +- (org.codehaus.plexus:plexus-classworlds:jar:2.7.0:provided - version managed from 2.6.0; omitted for duplicate)
+[INFO] |  |  \- (org.codehaus.plexus:plexus-utils:jar:3.5.1:provided - version managed from 3.3.0; omitted for duplicate)
+[INFO] |  +- org.codehaus.plexus:plexus-utils:jar:3.5.1:provided
+[INFO] |  \- org.codehaus.plexus:plexus-classworlds:jar:2.7.0:provided
+[INFO] \- org.apache.maven:maven-core:jar:3.9.6:provided
+[INFO]    +- (org.apache.maven:maven-model:jar:3.9.6:provided - omitted for duplicate)
+[INFO]    +- org.apache.maven:maven-settings:jar:3.9.6:provided
+[INFO]    |  \- (org.codehaus.plexus:plexus-utils:jar:3.5.1:provided - version managed from 3.5.1; omitted for duplicate)
+[INFO]    +- org.apache.maven:maven-settings-builder:jar:3.9.6:provided
+[INFO]    |  +- (org.apache.maven:maven-builder-support:jar:3.9.6:provided - version managed from 3.9.6; omitted for duplicate)
+[INFO]    |  +- (javax.inject:javax.inject:jar:1:provided - version managed from 1; omitted for duplicate)
+[INFO]    |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.26:provided - version managed from 1.26; omitted for duplicate)
+[INFO]    |  +- (org.codehaus.plexus:plexus-utils:jar:3.5.1:provided - version managed from 3.5.1; omitted for duplicate)
+[INFO]    |  +- (org.apache.maven:maven-settings:jar:3.9.6:provided - version managed from 3.9.6; omitted for duplicate)
+[INFO]    |  \- org.codehaus.plexus:plexus-sec-dispatcher:jar:2.0:provided (version managed from 2.0)
+[INFO]    |     +- (org.codehaus.plexus:plexus-utils:jar:3.5.1:provided - version managed from 3.4.1; omitted for duplicate)
+[INFO]    |     +- org.codehaus.plexus:plexus-cipher:jar:2.0:provided (version managed from 2.0)
+[INFO]    |     |  \- (javax.inject:javax.inject:jar:1:provided - version managed from 1; omitted for duplicate)
+[INFO]    |     \- (javax.inject:javax.inject:jar:1:provided - version managed from 1; omitted for duplicate)
+[INFO]    +- org.apache.maven:maven-builder-support:jar:3.9.6:provided
+[INFO]    +- org.apache.maven:maven-repository-metadata:jar:3.9.6:provided
+[INFO]    |  \- (org.codehaus.plexus:plexus-utils:jar:3.5.1:provided - version managed from 3.5.1; omitted for duplicate)
+[INFO]    +- (org.apache.maven:maven-artifact:jar:3.9.6:provided - omitted for duplicate)
+[INFO]    +- (org.apache.maven:maven-plugin-api:jar:3.9.6:provided - omitted for duplicate)
+[INFO]    +- org.apache.maven:maven-model-builder:jar:3.9.6:provided
+[INFO]    |  +- (org.codehaus.plexus:plexus-utils:jar:3.5.1:provided - version managed from 3.5.1; omitted for duplicate)
+[INFO]    |  +- (org.codehaus.plexus:plexus-interpolation:jar:1.26:provided - version managed from 1.26; omitted for duplicate)
+[INFO]    |  +- (javax.inject:javax.inject:jar:1:provided - version managed from 1; omitted for duplicate)
+[INFO]    |  +- (org.apache.maven:maven-model:jar:3.9.6:provided - version managed from 3.9.6; omitted for duplicate)
+[INFO]    |  +- (org.apache.maven:maven-artifact:jar:3.9.6:provided - version managed from 3.9.6; omitted for duplicate)
+[INFO]    |  +- (org.apache.maven:maven-builder-support:jar:3.9.6:provided - version managed from 3.9.6; omitted for duplicate)
+[INFO]    |  \- (org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.9.0.M2:provided - version managed from 0.9.0.M2; omitted for duplicate)
+[INFO]    +- org.apache.maven:maven-resolver-provider:jar:3.9.6:provided
+[INFO]    |  +- (org.apache.maven:maven-model:jar:3.9.6:provided - version managed from 3.9.6; omitted for duplicate)
+[INFO]    |  +- (org.apache.maven:maven-model-builder:jar:3.9.6:provided - version managed from 3.9.6; omitted for duplicate)
+[INFO]    |  +- (org.apache.maven:maven-repository-metadata:jar:3.9.6:provided - version managed from 3.9.6; omitted for duplicate)
+[INFO]    |  +- (org.apache.maven.resolver:maven-resolver-api:jar:1.9.18:provided - version managed from 1.9.18; omitted for duplicate)
+[INFO]    |  +- (org.apache.maven.resolver:maven-resolver-spi:jar:1.9.18:provided - version managed from 1.9.18; omitted for duplicate)
+[INFO]    |  +- (org.apache.maven.resolver:maven-resolver-util:jar:1.9.18:provided - version managed from 1.9.18; omitted for duplicate)
+[INFO]    |  +- (org.apache.maven.resolver:maven-resolver-impl:jar:1.9.18:provided - version managed from 1.9.18; omitted for duplicate)
+[INFO]    |  +- (org.codehaus.plexus:plexus-utils:jar:3.5.1:provided - version managed from 3.5.1; omitted for duplicate)
+[INFO]    |  \- (javax.inject:javax.inject:jar:1:provided - version managed from 1; omitted for duplicate)
+[INFO]    +- org.apache.maven.resolver:maven-resolver-impl:jar:1.9.18:provided
+[INFO]    |  +- (org.apache.maven.resolver:maven-resolver-api:jar:1.9.18:provided - version managed from 1.9.18; omitted for duplicate)
+[INFO]    |  +- (org.apache.maven.resolver:maven-resolver-spi:jar:1.9.18:provided - version managed from 1.9.18; omitted for duplicate)
+[INFO]    |  +- org.apache.maven.resolver:maven-resolver-named-locks:jar:1.9.18:provided
+[INFO]    |  |  \- (org.slf4j:slf4j-api:jar:1.7.36:provided - version managed from 1.7.36; omitted for duplicate)
+[INFO]    |  +- (org.apache.maven.resolver:maven-resolver-util:jar:1.9.18:provided - version managed from 1.9.18; omitted for duplicate)
+[INFO]    |  \- (org.slf4j:slf4j-api:jar:1.7.36:provided - version managed from 1.7.36; omitted for duplicate)
+[INFO]    +- org.apache.maven.resolver:maven-resolver-api:jar:1.9.18:provided
+[INFO]    +- org.apache.maven.resolver:maven-resolver-spi:jar:1.9.18:provided
+[INFO]    |  \- (org.apache.maven.resolver:maven-resolver-api:jar:1.9.18:provided - version managed from 1.9.18; omitted for duplicate)
+[INFO]    +- org.apache.maven.resolver:maven-resolver-util:jar:1.9.18:provided
+[INFO]    |  \- (org.apache.maven.resolver:maven-resolver-api:jar:1.9.18:provided - version managed from 1.9.18; omitted for duplicate)
+[INFO]    +- org.apache.maven.shared:maven-shared-utils:jar:3.3.4:provided
+[INFO]    +- (org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.9.0.M2:provided - omitted for duplicate)
+[INFO]    +- org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.9.0.M2:provided
+[INFO]    +- com.google.inject:guice:jar:5.1.0:provided
+[INFO]    |  +- (javax.inject:javax.inject:jar:1:provided - version managed from 1; omitted for duplicate)
+[INFO]    |  \- aopalliance:aopalliance:jar:1.0:provided
+[INFO]    +- com.google.guava:guava:jar:32.0.1-jre:provided
+[INFO]    +- com.google.guava:failureaccess:jar:1.0.1:provided
+[INFO]    +- javax.inject:javax.inject:jar:1:provided
+[INFO]    +- (org.codehaus.plexus:plexus-utils:jar:3.5.1:provided - omitted for duplicate)
+[INFO]    +- (org.codehaus.plexus:plexus-classworlds:jar:2.7.0:provided - omitted for duplicate)
+[INFO]    +- org.codehaus.plexus:plexus-interpolation:jar:1.26:provided
+[INFO]    +- org.codehaus.plexus:plexus-component-annotations:jar:2.1.0:provided
+[INFO]    +- org.apache.commons:commons-lang3:jar:3.12.0:provided
+[INFO]    \- org.slf4j:slf4j-api:jar:1.7.36:provided
+[INFO] 
+[INFO] --------------------< io.yamory:common-subproject >---------------------
+[INFO] Building common-subproject 1.0-SNAPSHOT                            [2/4]
+[INFO]   from common-subproject/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.11.0:tree (default-cli) @ common-subproject ---
+[INFO] io.yamory:common-subproject:jar:1.0-SNAPSHOT
+[INFO] \- junit:junit:jar:4.11:test
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] 
+[INFO] -------------------< io.yamory:yamory-example-maven >-------------------
+[INFO] Building yamory-example-maven 1.0-SNAPSHOT                         [3/4]
+[INFO]   from example-project/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/yamory/maven-metadata.xml
+[WARNING] 1 problem was encountered while building the effective model for 'org.javassist:javassist:jar:3.20.0-GA' during dependency collection step for project (use -X to see details)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom (18 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.pom (14 kB at 9223372037 GB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom (50 kB at 9223372037 GB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom (53 kB at 9223372037 GB/s)
+[INFO] 
+[INFO] --- dependency:3.11.0:tree (default-cli) @ yamory-example-maven ---
+[INFO] io.yamory:yamory-example-maven:jar:1.0-SNAPSHOT
+[INFO] +- io.yamory:common-subproject:jar:1.0-SNAPSHOT:compile
+[INFO] +- junit:junit:jar:4.11:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] +- org.apache.struts:struts2-core:jar:2.5.13:compile
+[INFO] |  +- org.freemarker:freemarker:jar:2.3.23:compile
+[INFO] |  +- ognl:ognl:jar:3.1.15:compile
+[INFO] |  |  \- org.javassist:javassist:jar:3.20.0-GA:compile
+[INFO] |  +- org.apache.logging.log4j:log4j-api:jar:2.8.2:compile
+[INFO] |  +- commons-fileupload:commons-fileupload:jar:1.3.3:compile
+[INFO] |  |  \- (commons-io:commons-io:jar:2.5:compile - version managed from 2.2; omitted for duplicate)
+[INFO] |  +- commons-io:commons-io:jar:2.5:compile
+[INFO] |  \- org.apache.commons:commons-lang3:jar:3.6:compile
+[INFO] +- org.apache.struts:struts2-convention-plugin:jar:2.5.13:compile
+[INFO] |  +- (org.apache.commons:commons-lang3:jar:3.6:compile - omitted for duplicate)
+[INFO] |  +- org.ow2.asm:asm:jar:5.2:compile
+[INFO] |  +- org.ow2.asm:asm-commons:jar:5.2:compile
+[INFO] |  |  \- org.ow2.asm:asm-tree:jar:5.2:compile
+[INFO] |  |     \- (org.ow2.asm:asm:jar:5.2:compile - version managed from 5.2; omitted for duplicate)
+[INFO] |  \- (org.apache.struts:struts2-core:jar:2.5.13:compile - omitted for duplicate)
+[INFO] +- org.apache.struts:struts2-rest-plugin:jar:2.5.13:compile
+[INFO] |  +- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+[INFO] |  |  +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] |  |  \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] |  +- net.sf.json-lib:json-lib:jar:jdk15:2.3:compile
+[INFO] |  |  +- commons-beanutils:commons-beanutils:jar:1.9.2:compile (version managed from 1.8.0)
+[INFO] |  |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - version managed from 1.1.1; omitted for duplicate)
+[INFO] |  |  |  \- (commons-collections:commons-collections:jar:3.2.2:compile - version managed from 3.2.1; omitted for duplicate)
+[INFO] |  |  +- commons-collections:commons-collections:jar:3.2.2:compile (version managed from 3.2.1)
+[INFO] |  |  +- commons-lang:commons-lang:jar:2.4:compile
+[INFO] |  |  +- commons-logging:commons-logging:jar:1.1.3:compile (version managed from 1.1.1)
+[INFO] |  |  \- net.sf.ezmorph:ezmorph:jar:1.0.6:compile
+[INFO] |  |     \- (commons-lang:commons-lang:jar:2.3:compile - omitted for conflict with 2.4)
+[INFO] |  +- com.fasterxml.jackson.core:jackson-core:jar:2.6.1:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.1:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile
+[INFO] |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.1:compile - omitted for duplicate)
+[INFO] |  \- (org.apache.struts:struts2-core:jar:2.5.13:compile - omitted for duplicate)
+[INFO] +- org.apache.logging.log4j:log4j-web:jar:2.14.0:compile
+[INFO] |  +- (org.apache.logging.log4j:log4j-api:jar:2.14.0:compile - omitted for conflict with 2.8.2)
+[INFO] |  \- org.apache.logging.log4j:log4j-core:jar:2.14.0:compile
+[INFO] |     \- (org.apache.logging.log4j:log4j-api:jar:2.14.0:compile - version managed from 2.14.0; omitted for conflict with 2.8.2)
+[INFO] +- com.google.inject:guice:jar:4.1.0:compile
+[INFO] |  +- javax.inject:javax.inject:jar:1:compile
+[INFO] |  +- aopalliance:aopalliance:jar:1.0:compile
+[INFO] |  \- com.google.guava:guava:jar:19.0:compile
+[INFO] +- com.google.inject.extensions:guice-servlet:jar:4.1.0:compile
+[INFO] |  \- (com.google.inject:guice:jar:4.1.0:compile - omitted for duplicate)
+[INFO] +- com.google.inject.extensions:guice-struts2:jar:4.1.0:compile
+[INFO] |  +- (com.google.inject.extensions:guice-servlet:jar:4.1.0:compile - omitted for duplicate)
+[INFO] |  \- (com.google.inject:guice:jar:4.1.0:compile - omitted for duplicate)
+[INFO] \- org.mybatis:mybatis:jar:3.4.5:compile
+[INFO] 
+[INFO] ----------------< io.yamory:yamory-example-maven-root >-----------------
+[INFO] Building yamory-example-maven-root 1.0-SNAPSHOT                    [4/4]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.11.0:tree (default-cli) @ yamory-example-maven-root ---
+[INFO] io.yamory:yamory-example-maven-root:pom:1.0-SNAPSHOT
+[INFO] Copying io.yamory:yamory-example-maven-root:pom:1.0-SNAPSHOT to project local repository
+[INFO] Copying io.yamory:yamory-example-maven-root:pom:consumer:1.0-SNAPSHOT to project local repository
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] generate-pom-properties-maven-plugin 0.0.1 ......... SUCCESS [  2.322 s]
+[INFO] common-subproject 1.0-SNAPSHOT ..................... SUCCESS [  0.005 s]
+[INFO] yamory-example-maven 1.0-SNAPSHOT .................. SUCCESS [  0.432 s]
+[INFO] yamory-example-maven-root 1.0-SNAPSHOT ............. SUCCESS [  0.002 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.291 s
+[INFO] Finished at: 2026-07-06T03:14:48Z
+[INFO] ------------------------------------------------------------------------
